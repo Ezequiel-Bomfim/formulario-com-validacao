@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 800px;
+    height: 400px;
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.main .texto{
+    width: 300px;
+    color: #ffffff;
+}
+
+.main .texto h1{
+    font-weight: 900;
+}
+
+.main .texto p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* gap: 15px; */
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+}
+
+.form .inputs{
+    padding-left: 10px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.form .inputs, .form .btn{
+    width: 298px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Roboto'
+}
+
+.form .inputs.input-invalido{
+    border-color: #F52E2E;
+}
+
+.form .inputs.input-valido{
+    border-color: #00C22B;
+}
+
+.form .inputs.campo-de-mensagem{
+    height: 100px;
+    resize: none;
+    padding-top: 5px;
+}
+
+.form .campo-obrigatório{
+    font-size: 0.8rem;
+    color: #F52E2E;
+    align-self: flex-start;
+    position: absolute;
+    left: 22px;
+    display: none;
+}
+
+.form .mensagem-erro-input-1{
+    top: 52px;
+}
+
+.form .mensagem-erro-input-2{
+    top: 102px;
+}
+
+.form .mensagem-erro-input-3{
+    top: 152px;
+}
+
+.form .mensagem-erro-input-4{
+    bottom: 100px;
+}
+
+.form .campo-obrigatório.mostrar{
+    display: block;
+}
+
+.form p{
+    align-self: flex-start;
+    margin:0 0 20px 15px;
+    font-size: 1.5rem;
+}
+
+.form .btn{
+    background-color: #3CCC87;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    height: 40px;
+}
