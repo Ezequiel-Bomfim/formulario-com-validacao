@@ -5,13 +5,13 @@ body{
     min-height: 100vh;
     background-color: #ccc;
     font-family: 'Roboto', sans-serif;
+    padding: 5px;
 }
 
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 60px;
     width: 800px;
     height: 400px;
@@ -50,7 +50,7 @@ body{
     margin-bottom: 15px;
 }
 
-.form .inputs, .form .btn{
+.form .inputs, .btn{
     width: 298px;
     border-radius: 5px;
     border: 1px solid;
