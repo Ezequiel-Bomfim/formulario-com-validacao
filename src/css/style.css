@@ -6,6 +6,8 @@ body{
     background-color: #ccc;
     font-family: 'Roboto', sans-serif;
     padding: 5px;
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
 }
 
 .main{
@@ -15,8 +17,6 @@ body{
     gap: 60px;
     width: 800px;
     height: 400px;
-    background-image: url(../images/bg-repeat.jpg);
-    background-size: contain;
 }
 
 .main .texto{

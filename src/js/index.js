@@ -34,3 +34,21 @@ inputs.forEach((input) => {
     }
   });
 });
+
+
+
+
+
+/*
+inputs.forEach((input) => {
+  if (input.value.trim()) {
+    input.classList.add('input-valido')
+    input.nextElementSibling.classList.remove('mostrar')
+  } else {
+    input.classList.remove('input-valido')
+    input.classList.add('input-invalido')
+    input.nextElementSibling.classList.add('mostrar')
+  }
+})
+})
+*/
